@@ -1,0 +1,64 @@
+html {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container {
+    padding: 0 auto!important;
+    margin: 0 0!important;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+.navbar {
+    background-color: white;
+}
+
+.active {
+    background-color: #1489f6!important;
+    color: white!important;
+}
+
+.purple-bg {
+    background-color: #7A35FE;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+
+.purple-bg a {
+    text-decoration: none;
+    color: white;
+}
+
+.description-box {
+    display: flex;
+}
+
+.register {
+    padding: 10% 2%;
+    margin: 25% 5%;
+    display: flex;
+    flex-grow: 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 90%;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.item {
+    margin: 1% 5%;
+}
+
+#submit-button {
+    width: 100px;
+}
